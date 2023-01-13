@@ -1,7 +1,7 @@
 const NameView = () => {
   return (
-    <div className="flex flex-[0.3] flex-col">
-      <div className="mt-48 mx-auto">
+    <div className="mt-[80px] flex flex-[0.3] flex-col">
+      <div className="mx-auto mt-48">
         <div>
           <p className="text-4xl font-bold text-white xl:text-[50px]">Clive</p>
           <div className="flex flex-row">

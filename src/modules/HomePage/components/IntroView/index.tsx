@@ -2,7 +2,7 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const IntroView = () => {
   return (
-    <div className="flex flex-[0.3]">
+    <div className="mt-[80px] flex flex-[0.3]">
       <div className="mx-2 mt-48">
         <p className="p-2 text-lg font-semibold text-accent">INTRODUCTION</p>
         <h1 className="text-4xl font-semibold text-white xl:text-[50px]">

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const PortraitView = () => {
   return (
-    <div className="relative flex-[0.4]">
+    <div className="relative flex-[0.4] mt-[80px]">
       <div className="absolute flex h-full w-full">
         <div className="m-auto">
           <Image

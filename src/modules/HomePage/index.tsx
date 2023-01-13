@@ -1,4 +1,4 @@
-import IntroView from '../IntroView';
+import IntroView from './components/IntroView';
 import NameView from './components/NameView';
 import PortraitView from './components/PortraitView';
 
