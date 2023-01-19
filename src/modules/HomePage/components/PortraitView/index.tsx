@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const PortraitView = () => {
   return (
-    <div className="relative flex-[0.4] mt-[80px]">
+    <div className="relative mt-[80px] flex-[0.4]">
       <div className="absolute flex h-full w-full">
         <div className="m-auto">
           <Image
@@ -11,6 +11,7 @@ const PortraitView = () => {
             alt="Clive 3D Portrait"
             src="/assets/images/clive-animation.png"
             className="z-10 m-auto"
+            priority={true}
           />
         </div>
       </div>
