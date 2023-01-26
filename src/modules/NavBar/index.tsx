@@ -6,7 +6,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 const NavBar = () => {
   const router = useRouter();
   return (
-    <div className="fixed flex h-20 w-full flex-row bg-primary_light">
+    <div className="fixed mx-auto flex h-20 w-full flex-row bg-primary_light">
       <p className="m-auto flex-[0.15] font-montserrat font-bold text-white">
         CL
       </p>
